@@ -1,0 +1,78 @@
+header{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(asrama.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+ul{
+    list-style-type: none;
+    float: right;
+    margin-top: 20px;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+}
+ul li a:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+ul li.active a{
+    background-color: whitesmoke;
+    color: black;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: century gothic;
+}
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color: whitesmoke;
+    font-size: 55px;
+    text-decoration: underline;
+}
+.button{
+    position: absolute;
+    padding-left: 30px;
+    top: 65%;
+    left: 50%;
+    color: whitesmoke;
+    transform: translate(-50%,-50%);
+}
+.btn{
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.button .btn1{
+    border: 2px solid whitesmoke;
+    padding: 10px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+    margin-left: 50px;
+}
+
+.btn1:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+}
